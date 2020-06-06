@@ -1,0 +1,23 @@
+:root{
+    --spacing: 10px;
+    --blur: 5px;
+    --base: blue;
+}
+
+.bg{
+    position: relative;
+    background-color: var(--base);
+    height: 600px;
+    width: 600px;
+}
+
+img{
+    position: absolute;
+    top: var(--spacing);
+    left: var(--spacing);
+    
+    filter: blur(var(--blur));
+    
+    height: 90%;
+    width: 90%;
+}
